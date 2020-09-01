@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,9 +11,27 @@
 		3845ECD324FA43CD00CD831C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ECD224FA43CD00CD831C /* SceneDelegate.swift */; };
 		3845ECD524FA43CD00CD831C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ECD424FA43CD00CD831C /* ViewController.swift */; };
 		3845ECD824FA43CD00CD831C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3845ECD624FA43CD00CD831C /* Main.storyboard */; };
-		3845ECDA24FA43CD00CD831C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ECD924FA43CD00CD831C /* ContentView.swift */; };
 		3845ECDC24FA43CE00CD831C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3845ECDB24FA43CE00CD831C /* Assets.xcassets */; };
 		3845ECDF24FA43CE00CD831C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3845ECDD24FA43CE00CD831C /* LaunchScreen.storyboard */; };
+		3845ED1124FA4DBF00CD831C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED1024FA4DBF00CD831C /* MainController.swift */; };
+		3845ED1424FA4DE700CD831C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED1324FA4DE700CD831C /* BaseViewController.swift */; };
+		3845ED3C24FA537900CD831C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED3B24FA537900CD831C /* MainView.swift */; };
+		3845ED3E24FA54E000CD831C /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED3D24FA54E000CD831C /* MainViewCell.swift */; };
+		3845ED4924FA71C500CD831C /* DataConverterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED4824FA71C500CD831C /* DataConverterController.swift */; };
+		3845ED4B24FB972D00CD831C /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED4A24FB972D00CD831C /* MenuItem.swift */; };
+		3845ED4D24FBBBA000CD831C /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED4C24FBBBA000CD831C /* SettingsController.swift */; };
+		3845ED4F24FBD6DA00CD831C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED4E24FBD6DA00CD831C /* SettingsView.swift */; };
+		3845ED5124FBD8B200CD831C /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED5024FBD8B200CD831C /* SettingItem.swift */; };
+		3845ED5324FBE31C00CD831C /* SettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED5224FBE31C00CD831C /* SettingGroup.swift */; };
+		3845ED5624FBE4A500CD831C /* FontSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED5524FBE4A500CD831C /* FontSelector.swift */; };
+		3845ED5924FBE67000CD831C /* FontSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED5824FBE67000CD831C /* FontSelectorController.swift */; };
+		3845ED6724FC94C800CD831C /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED6624FC94C800CD831C /* Font.swift */; };
+		3845ED8F24FD23B500CD831C /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED8E24FD23B500CD831C /* LocalStorage.swift */; };
+		3845ED9124FD26BE00CD831C /* GlobalFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED9024FD26BE00CD831C /* GlobalFont.swift */; };
+		3845ED9424FD2BBE00CD831C /* MYDCollctionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED9324FD2BBE00CD831C /* MYDCollctionViewFlowLayout.swift */; };
+		3845ED9624FD348100CD831C /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED9524FD348100CD831C /* Vibration.swift */; };
+		3845ED9824FD386300CD831C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED9724FD386300CD831C /* Constants.swift */; };
+		D617571FD74FB08BF20BF35A /* libPods-ColorHammer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAC57DDCCCA114BB5BD86FA /* libPods-ColorHammer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +40,31 @@
 		3845ECD224FA43CD00CD831C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3845ECD424FA43CD00CD831C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3845ECD724FA43CD00CD831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3845ECD924FA43CD00CD831C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3845ECDB24FA43CE00CD831C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3845ECDE24FA43CE00CD831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3845ECE024FA43CE00CD831C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3845ECE624FA43D900CD831C /* ColorHammer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ColorHammer.entitlements; sourceTree = "<group>"; };
+		3845ED1024FA4DBF00CD831C /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		3845ED1324FA4DE700CD831C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3845ED3B24FA537900CD831C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3845ED3D24FA54E000CD831C /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		3845ED4824FA71C500CD831C /* DataConverterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConverterController.swift; sourceTree = "<group>"; };
+		3845ED4A24FB972D00CD831C /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		3845ED4C24FBBBA000CD831C /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		3845ED4E24FBD6DA00CD831C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3845ED5024FBD8B200CD831C /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
+		3845ED5224FBE31C00CD831C /* SettingGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingGroup.swift; sourceTree = "<group>"; };
+		3845ED5524FBE4A500CD831C /* FontSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSelector.swift; sourceTree = "<group>"; };
+		3845ED5824FBE67000CD831C /* FontSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSelectorController.swift; sourceTree = "<group>"; };
+		3845ED6624FC94C800CD831C /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		3845ED8E24FD23B500CD831C /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		3845ED9024FD26BE00CD831C /* GlobalFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFont.swift; sourceTree = "<group>"; };
+		3845ED9324FD2BBE00CD831C /* MYDCollctionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYDCollctionViewFlowLayout.swift; sourceTree = "<group>"; };
+		3845ED9524FD348100CD831C /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		3845ED9724FD386300CD831C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4AD1B017551A3D2A16DA320F /* Pods-ColorHammer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorHammer.release.xcconfig"; path = "Target Support Files/Pods-ColorHammer/Pods-ColorHammer.release.xcconfig"; sourceTree = "<group>"; };
+		BEAC57DDCCCA114BB5BD86FA /* libPods-ColorHammer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorHammer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE94B29B0DBAA03A31098A39 /* Pods-ColorHammer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorHammer.debug.xcconfig"; path = "Target Support Files/Pods-ColorHammer/Pods-ColorHammer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D617571FD74FB08BF20BF35A /* libPods-ColorHammer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +84,8 @@
 			children = (
 				3845ECCF24FA43CD00CD831C /* ColorHammer */,
 				3845ECCE24FA43CD00CD831C /* Products */,
+				D1AF5D444B759843E01415A6 /* Pods */,
+				DC340C8725003302868EB2F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +100,115 @@
 		3845ECCF24FA43CD00CD831C /* ColorHammer */ = {
 			isa = PBXGroup;
 			children = (
+				3845ED9224FD2B8400CD831C /* Custom */,
+				3845ED4724FA68A500CD831C /* Common */,
+				3845ED0F24FA4DA200CD831C /* Controllers */,
+				3845ED0E24FA4D8E00CD831C /* Models */,
+				3845ED0D24FA4D8500CD831C /* Views */,
+				3845ECE624FA43D900CD831C /* ColorHammer.entitlements */,
 				3845ECD024FA43CD00CD831C /* AppDelegate.swift */,
 				3845ECD224FA43CD00CD831C /* SceneDelegate.swift */,
 				3845ECD424FA43CD00CD831C /* ViewController.swift */,
 				3845ECD624FA43CD00CD831C /* Main.storyboard */,
-				3845ECD924FA43CD00CD831C /* ContentView.swift */,
 				3845ECDB24FA43CE00CD831C /* Assets.xcassets */,
 				3845ECDD24FA43CE00CD831C /* LaunchScreen.storyboard */,
 				3845ECE024FA43CE00CD831C /* Info.plist */,
 			);
 			path = ColorHammer;
+			sourceTree = "<group>";
+		};
+		3845ED0D24FA4D8500CD831C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3845ED5424FBE48900CD831C /* SettingsViews */,
+				3845ED3B24FA537900CD831C /* MainView.swift */,
+				3845ED3D24FA54E000CD831C /* MainViewCell.swift */,
+				3845ED4E24FBD6DA00CD831C /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3845ED0E24FA4D8E00CD831C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3845ED4A24FB972D00CD831C /* MenuItem.swift */,
+				3845ED5024FBD8B200CD831C /* SettingItem.swift */,
+				3845ED5224FBE31C00CD831C /* SettingGroup.swift */,
+				3845ED6624FC94C800CD831C /* Font.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3845ED0F24FA4DA200CD831C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3845ED5724FBE65800CD831C /* SettingsController */,
+				3845ED1224FA4DD300CD831C /* Base */,
+				3845ED1024FA4DBF00CD831C /* MainController.swift */,
+				3845ED4824FA71C500CD831C /* DataConverterController.swift */,
+				3845ED4C24FBBBA000CD831C /* SettingsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3845ED1224FA4DD300CD831C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3845ED1324FA4DE700CD831C /* BaseViewController.swift */,
+				3845ED9024FD26BE00CD831C /* GlobalFont.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3845ED4724FA68A500CD831C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3845ED8E24FD23B500CD831C /* LocalStorage.swift */,
+				3845ED9524FD348100CD831C /* Vibration.swift */,
+				3845ED9724FD386300CD831C /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3845ED5424FBE48900CD831C /* SettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				3845ED5524FBE4A500CD831C /* FontSelector.swift */,
+			);
+			path = SettingsViews;
+			sourceTree = "<group>";
+		};
+		3845ED5724FBE65800CD831C /* SettingsController */ = {
+			isa = PBXGroup;
+			children = (
+				3845ED5824FBE67000CD831C /* FontSelectorController.swift */,
+			);
+			path = SettingsController;
+			sourceTree = "<group>";
+		};
+		3845ED9224FD2B8400CD831C /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				3845ED9324FD2BBE00CD831C /* MYDCollctionViewFlowLayout.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		D1AF5D444B759843E01415A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE94B29B0DBAA03A31098A39 /* Pods-ColorHammer.debug.xcconfig */,
+				4AD1B017551A3D2A16DA320F /* Pods-ColorHammer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC340C8725003302868EB2F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC57DDCCCA114BB5BD86FA /* libPods-ColorHammer.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3845ECE324FA43CE00CD831C /* Build configuration list for PBXNativeTarget "ColorHammer" */;
 			buildPhases = (
+				359F584ECC2F77D7D8AE5ABC /* [CP] Check Pods Manifest.lock */,
 				3845ECC924FA43CD00CD831C /* Sources */,
 				3845ECCA24FA43CD00CD831C /* Frameworks */,
 				3845ECCB24FA43CD00CD831C /* Resources */,
+				B622B14CC84335CF4FD3CEC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,15 +278,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		359F584ECC2F77D7D8AE5ABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorHammer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B622B14CC84335CF4FD3CEC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorHammer/Pods-ColorHammer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorHammer/Pods-ColorHammer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorHammer/Pods-ColorHammer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3845ECC924FA43CD00CD831C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3845ECD524FA43CD00CD831C /* ViewController.swift in Sources */,
+				3845ED5624FBE4A500CD831C /* FontSelector.swift in Sources */,
+				3845ED3C24FA537900CD831C /* MainView.swift in Sources */,
+				3845ED5324FBE31C00CD831C /* SettingGroup.swift in Sources */,
 				3845ECD124FA43CD00CD831C /* AppDelegate.swift in Sources */,
-				3845ECDA24FA43CD00CD831C /* ContentView.swift in Sources */,
 				3845ECD324FA43CD00CD831C /* SceneDelegate.swift in Sources */,
+				3845ED5924FBE67000CD831C /* FontSelectorController.swift in Sources */,
+				3845ED3E24FA54E000CD831C /* MainViewCell.swift in Sources */,
+				3845ED5124FBD8B200CD831C /* SettingItem.swift in Sources */,
+				3845ED1124FA4DBF00CD831C /* MainController.swift in Sources */,
+				3845ED4D24FBBBA000CD831C /* SettingsController.swift in Sources */,
+				3845ED9824FD386300CD831C /* Constants.swift in Sources */,
+				3845ED4B24FB972D00CD831C /* MenuItem.swift in Sources */,
+				3845ED9624FD348100CD831C /* Vibration.swift in Sources */,
+				3845ED8F24FD23B500CD831C /* LocalStorage.swift in Sources */,
+				3845ED6724FC94C800CD831C /* Font.swift in Sources */,
+				3845ED4924FA71C500CD831C /* DataConverterController.swift in Sources */,
+				3845ED9424FD2BBE00CD831C /* MYDCollctionViewFlowLayout.swift in Sources */,
+				3845ED1424FA4DE700CD831C /* BaseViewController.swift in Sources */,
+				3845ED4F24FBD6DA00CD831C /* SettingsView.swift in Sources */,
+				3845ED9124FD26BE00CD831C /* GlobalFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,18 +489,24 @@
 		};
 		3845ECE424FA43CE00CD831C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE94B29B0DBAA03A31098A39 /* Pods-ColorHammer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ColorHammer/ColorHammer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CV8295SJK9;
 				INFOPLIST_FILE = ColorHammer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lzjlxebr.ColorHammer;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyyzmyd.colorhammer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,18 +514,24 @@
 		};
 		3845ECE524FA43CE00CD831C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD1B017551A3D2A16DA320F /* Pods-ColorHammer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ColorHammer/ColorHammer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CV8295SJK9;
 				INFOPLIST_FILE = ColorHammer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lzjlxebr.ColorHammer;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyyzmyd.colorhammer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
